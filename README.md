@@ -29,7 +29,7 @@ Built by Daniel Perry-Reed @ [Kickflip Analytics](https://kickflipanalytics.com/
 
 This method includes the custom template, a pre-configured tag, and the necessary triggers.
 
-1. **Download the container file**: [atrribution-data-storer-container.json](./atrribution-data-storer-container.json) (you will need to create and upload this file to your repository).  
+1. **Download the container file**: [attribution-data-storer-container.json](./attribution-data-storer-container.json) (you will need to create and upload this file to your repository).  
 2. **Import into your GTM workspace**:  
    * Navigate to **GTM Admin \> Import Container**.  
    * Upload the downloaded JSON file.  
@@ -42,7 +42,7 @@ This method includes the custom template, a pre-configured tag, and the necessar
 #### **1\. Add the Custom Template Code**
 
 * In the GTM UI, navigate to **Templates \> Tag Templates \> New**.  
-* Copy the [atrribution-data-storer-template.js](./atrribution-data-storer-template.js) code from this repository and paste into the Code section of the template.  
+* Copy the [atrribution-data-storer-template.js](./attribution-data-storer-template.js) code from this repository and paste into the Code section of the template.  
 
 #### **2\. Configure Template Fields**
 
