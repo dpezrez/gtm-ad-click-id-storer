@@ -41,49 +41,16 @@ This method includes the custom template, a pre-configured tag, and the necessar
 
 #### **1\. Add the Custom Template Code**
 
-* In the GTM UI, navigate to **Templates \> Tag Templates \> New**.  
-* Copy the [atrribution-data-storer-template.js](./attribution-data-storer-template.js) code from this repository and paste into the Code section of the template.  
+* In the GTM UI, navigate to **Templates \> Tag Templates \> New**.
+* Download the [atrribution-data-storer-template.tpl](./attribution-data-storer-template.tpl) code from this repository.
+* Import the downloaded tamplate file into GTM.  
 
-#### **2\. Configure Template Fields**
+#### **2\. Add tag and configure**
 
-Create a new tag using the imported template and configure the following fields as needed:
-
-| Field Name | Type | Description | Default Value |
-| :---- | :---- | :---- | :---- |
-| cookieName | Text | The name for the first-party cookie. | attr\_data |
-| cookieDomain | Text | The domain for the cookie. auto is recommended. | auto |
-| cookieHours | Text | The lifetime of the cookie in hours. | 720 (30 days) |
-| extraClickIds | Text | A comma-separated list of any additional query parameters to track (e.g., hsa\_cam, \_branch\_match\_id). | *(blank)* |
-| enableLocalStorage | Checkbox | If checked, stores attribution data in localStorage as a backup. | false |
-| pushToDataLayer | Checkbox | If checked, pushes the attribution object to the dataLayer on page load. | false |
-| dataLayerEventName | Text | The event name to use for the dataLayer push. | gtm\_attr |
-| logMessages | Checkbox | If checked, enables detailed console logging for debugging. | false |
-| ignoreSelfReferrals | Checkbox | If checked, prevents updates if the referrer is blank or the same as the page's host. | false |
-| storePreviousValues | Checkbox | If checked, stores the 5 most recent previous values for each parameter. | false |
-
-#### **3\. Set Template Permissions**
-
-In the template editor, go to the **Permissions** tab and grant access to the following APIs:
-
-* **Reads Cookie Value(s)**: cookieName (or allow any).  
-* **Sets a Cookie**: cookieName (or allow any).  
-* **Accesses Local Storage**:  
-  * **Read**: attr\_data  
-  * **Write**: attr\_data  
-* **Reads URL**: Any component.  
-* **Reads Referrer URL**: Any component.  
-* **Reads Data Layer**: event (or allow any).  
-* **Pushes Data to Data Layer**: event (or allow any).  
-* **Gets Timestamp**: Allowed.  
-* **Logs to Console**: Allowed.  
-* **Reads Query Parameters**: Any parameter.
-
-#### **4\. Create and Trigger the Tag**
-
-* Go to **Tags \> New** and select your newly created custom template.  
-* Configure the fields as desired (see step 2).  
+* Go to **Tags \> New** and select your newly created custom template.
+* Configure the fields as desired.
 * Assign a trigger to the tag. A **All Pages** trigger (or your page view event trigger for SPAs) is recommended.
-* Set your desired consent requirements.  
+* Set your desired consent requirements.
 * Save the tag and QA.
 * Publish your container.
 
