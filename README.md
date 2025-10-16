@@ -1,4 +1,4 @@
-# **GTM Attribution Storer Tag Script (v1.0)**
+# **GTM Tag Tempalte - Attribution Data Storer (v1.0)**
 
 This Google Tag Manager (GTM) **Custom Template** captures and persists marketing attribution data in a first-party cookie and localStorage as rich JSON objects.
 
