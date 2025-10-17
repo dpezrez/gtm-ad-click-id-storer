@@ -165,8 +165,7 @@ ___SANDBOXED_JS_FOR_WEB_TEMPLATE___
 
 /*
 Built by Daniel Perry-Reed @ Kickflip Analytics
-https://kickflipanalytics.com/
-v1.0 - https://github.com/dpezrez/gtm-attribution-data-storer/
+v1.0 - https://github.com/dpezrez/gtm-ad-click-id-storer/
 */
 
 var log = require('logToConsole');
@@ -702,4 +701,4 @@ scenarios: []
 
 ___NOTES___
 
-Created on 10/17/2025, 1:33:32 PM
+Created on 10/17/2025, 1:37:59 PM
