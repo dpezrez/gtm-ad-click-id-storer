@@ -1,5 +1,5 @@
 homepage: "https://kickflipanalytics.com/"
 documentation: "https://github.com/dpezrez/gtm-ad-click-id-storer/"
 versions:
-  - sha: 53a2041cfc1494c23e41a16e78324ce89af1ff92
+  - sha: 7299f2f8432f95bcd249ab13f39ad631f2df3633
     changeNotes: Initial release.
