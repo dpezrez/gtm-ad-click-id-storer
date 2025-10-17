@@ -1,4 +1,4 @@
-# **GTM Tag Tempalte - Ad Click ID Storer (v1.0)**
+# **GTM Tag Template - Ad Click ID Storer (v1.0)**
 
 This Google Tag Manager (GTM) **Custom Template** captures and persists advertising click ID data in a first-party cookie and localStorage as rich JSON objects.
 
