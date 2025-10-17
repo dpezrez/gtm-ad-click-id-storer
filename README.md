@@ -4,7 +4,7 @@ This Google Tag Manager (GTM) **Custom Template** captures and persists advertis
 
 The script provides deep insights into user journeys by tracking not just the latest value, but also interaction counts and historical values for each parameter. The collected data can be pushed to the dataLayer for seamless integration with server-side GTM for use in Google Analytics, ad platforms (CAPI) and your backend systems.
 
-Built by Daniel Perry-Reed @ [Kickflip Analytics](https://kickflipanalytics.com/?utm_medium=github&utm_source=gtm-ad-click-id-storer).
+Built by Daniel Perry-Reed @ [Kickflip Analytics](https://kickflipanalytics.com/?utm_medium=github&utm_source=gtm-ad-click-id-storer) & [Data to Value](https://datatovalue.com/).
 
 ## **🚀 Key Features**
 
@@ -94,6 +94,11 @@ Here is an example of the JSON object that gets stored in the cookie and localSt
 }
 ```
 
-## **📄 License**
+## **👤 Author**
 
-This project is licensed under the **MIT License**.
+Built by Daniel Perry-Reed @ Kickflip Analytics & Data to Value.
+
+[LinkedIn](https://www.linkedin.com/in/danielperryreed/) | [Website](https://kickflipanalytics.com/?utm_medium=github&utm_source=gtm-ad-click-id-storer) | [Podcast](https://www.analyticsunscripted.com/)
+
+## **📄 License**
+This project is licensed under the **Apache License 2.0** [LICENSE](./LICENSE).
