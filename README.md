@@ -44,7 +44,7 @@ Built by Daniel Perry-Reed @ [Kickflip Analytics](https://kickflipanalytics.com/
 
 This method includes the custom template, a pre-configured tag, and the necessary triggers.
 
-1. **Download the container file**: [ad-click-id-storer-container.json](./ad-click-id-storer-container.json) (you will need to create and upload this file to your repository).
+1. **Download the container file**: [container.json](./container.json) (you will need to create and upload this file to your repository).
 2. **Import into your GTM workspace**:
    * Navigate to **GTM Admin \> Import Container**.
    * Upload the downloaded JSON file.
@@ -57,7 +57,7 @@ This method includes the custom template, a pre-configured tag, and the necessar
 #### **1\. Add the Custom Template Code**
 
 * In the GTM UI, navigate to **Templates \> Tag Templates \> New**.
-* Download the [ad-click-id-storer-template.tpl](./ad-click-id-storer-template.tpl) code from this repository.
+* Download the [template.tpl](./template.tpl) code from this repository.
 * Import the downloaded tamplate file into GTM.
 
 #### **2\. Add tag and configure**
