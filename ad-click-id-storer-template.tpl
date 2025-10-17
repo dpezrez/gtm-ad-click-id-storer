@@ -303,7 +303,7 @@ var paramsToTrack = [
   'qclid', // Quora
   'epik', // Pinterest
   'adct', // AdRoll
-  'outbrainclickid', // Outbrain (this is the suggested param, but is manually defined)
+  'ob_click_id', // Outbrain (this is the suggested param, but is manually defined)
   'tbclid' // Taboola (this is the suggested param, but is manually defined)
 ].concat(extraClickIds);
 
